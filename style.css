@@ -1,0 +1,96 @@
+body{
+   
+}
+
+#map{
+    width: 70%;
+    float:right;
+    border-style: solid;
+    border-color: black;
+}
+
+#controllers{
+    float: left;
+    
+}
+
+#zoomToCenter{
+    background-image: url("./sources/zoom_to_center.gif");
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30px;
+    width: 30px;
+
+}
+
+#zoomIn{
+    background-image: url('./sources/zoom_in.gif');
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30px;
+    width: 30px;
+}
+
+
+#zoomOut{
+    background-image: url('./sources/zoom_out.gif');
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30px;
+    width: 30px;
+}
+
+
+
+#export{
+    background-image: url('./sources/export.gif');
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30px;
+    width: 30px;
+}
+
+#rotation_form{
+    padding-top: 5px;
+}
+
+#rotation{
+    text-align: center;
+}
+
+#p_coordinates{
+    font-family: Courier New;
+    font-weight: bold;
+    text-align: right;
+    text-shadow: 6px, 6px, #707070;
+   
+    color: #FF0000;
+}
+
+
+#layertree{
+    width: 20%;
+    position: fixed;
+    height: calc(100% - 35px);
+    float: left;
+    margin-top: 5px;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+
+}
+
+.layers{
+    margin-top: 0;
+    text-align: center;
+    background-color: aqua;
+}
+
+#layer1_value, #layer2_value, #layer3_value, #layer4_value, #layer5_value{
+    font-family: 'Courier';
+    color: rgb(55,55,55);
+}

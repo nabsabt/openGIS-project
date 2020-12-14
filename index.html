@@ -1,0 +1,80 @@
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="https://openlayers.org/en/v5.3.0/css/ol.css" type="text/css">
+        
+
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
+        <script src="https://unpkg.com/d3@4.12.0/build/d3.js"></script>
+
+    </head>
+
+    <body>
+            
+        <div id="controllers">
+            <button id="zoomToCenter"></button>
+            <button id='zoomIn'></button>
+            <button id="zoomOut"></button>
+            <button id="export"></button>
+                Rotation value: <input type="text" id="rotation">
+            
+
+
+
+            <a id="image-download" download="map.png"></a>
+
+            <div id="layertree" class="layertree">
+                <p class="layers">LAYERS</p>
+
+                <div class="layer1">
+                    <input type="checkbox" name="layer 1" id="cb1" checked > First layer
+                    <p id=layer1_value></p>
+                </div>
+                <div class="layer2">
+                    <input type="checkbox" name="layer 2" id="cb2" checked> Second layer
+                    <p id=layer2_value></p>
+                </div>
+                <div class="layer3">
+                    <input type="checkbox" name="layer 3" id="cb3" checked> Third layer
+                    <p id=layer3_value></p>
+                </div>
+                <div class="layer4">
+                    <input type="checkbox" name="layer 4" id="cb4" checked> Fourth layer
+                    <p id=layer4_value></p>
+                </div>
+                <div class="layer5">
+                    <input type="checkbox" name="layer 5" id="cb5" checked> Fifth layer
+                    <p id="layer5_value"></p>
+                </div>  
+                </div>          
+
+        </div>
+
+       
+
+        <div id="map" class ="map" >
+                
+        </div>
+
+        
+
+        
+        
+
+        <p id="p_coordinates" class="p_coordinates">
+
+        </p>
+        
+        <script src="script.js"></script>
+        
+        
+
+        
+    </body>
+</html>
+
+
+
+
+
